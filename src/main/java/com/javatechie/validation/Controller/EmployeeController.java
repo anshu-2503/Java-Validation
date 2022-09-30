@@ -20,7 +20,6 @@ public class EmployeeController {
         logger.info("Controller is executing.......");
         return "Logging is done!!!";
     }
-
     @PostMapping("/employees")
     public Employee addNewEmployeeToSystem(@RequestBody @Valid Employee employee){
 
